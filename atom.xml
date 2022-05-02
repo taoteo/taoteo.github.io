@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-02T15:20:42.564Z</updated>
+    <updated>2022-05-02T15:24:28.955Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Stay Hungry Stay Foolish</subtitle>
     <logo>https://taoteo.github.io/images/avatar.png</logo>
     <icon>https://taoteo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Tao</rights>
