@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-03T02:00:18.504Z</updated>
+    <updated>2022-05-05T10:35:11.940Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -25,6 +25,12 @@
 <ul>
 <li>[survey] The rise of machine learning for detection and classification of malware: Research developments, trends and challenges. Journal of Network and Computer Applications 2020.<br>
 描述：关于恶意软件检测的综述，提供了综述的对比，介绍了静态和动态的特征，总结了基于神经网络的方法以及多模态和混合的方法，分析了当前的挑战和面临的问题。</li>
+</ul>
+<h1 id="mechine-learing">Mechine Learing</h1>
+<h2 id="time-series">Time Series</h2>
+<ul>
+<li>Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting. AAAI 2021.<br>
+描述：修改Transformer采用多头概率稀疏的自注意力机制降低时间复杂度，用于长时间序列预测。</li>
 </ul>
 ]]></content>
     </entry>
