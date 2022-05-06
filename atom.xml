@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-06T12:05:25.274Z</updated>
+    <updated>2022-05-06T12:08:42.811Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -16,9 +16,9 @@
         <link href="https://taoteo.github.io/post/tools/">
         </link>
         <updated>2022-05-06T06:04:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>📝记录日常学习和工作所用到的工具配置 🎛</p>
+        <summary type="html"><![CDATA[<p>📝记录日常学习和工作所用到的工具配置 🎛 待完善....</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>📝记录日常学习和工作所用到的工具配置 🎛</p>
+        <content type="html"><![CDATA[<p>📝记录日常学习和工作所用到的工具配置 🎛 待完善....</p>
 <!-- more -->
 <h1 id="vim">Vim</h1>
 <blockquote>
