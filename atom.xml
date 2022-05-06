@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-05T12:57:36.302Z</updated>
+    <updated>2022-05-06T12:05:25.274Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -10,6 +10,47 @@
     <logo>https://taoteo.github.io/images/avatar.png</logo>
     <icon>https://taoteo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Tao</rights>
+    <entry>
+        <title type="html"><![CDATA[Tools]]></title>
+        <id>https://taoteo.github.io/post/tools/</id>
+        <link href="https://taoteo.github.io/post/tools/">
+        </link>
+        <updated>2022-05-06T06:04:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>📝记录日常学习和工作所用到的工具配置 🎛</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>📝记录日常学习和工作所用到的工具配置 🎛</p>
+<!-- more -->
+<h1 id="vim">Vim</h1>
+<blockquote>
+<p>对于程序员来说，vim 是非常好用的编辑器 👍<br>
+这里保存下自己的配置文件，方便在陌生设备上迁移🚴‍♀<br>
+配置文件<code>~/.vim/vimrc</code></p>
+</blockquote>
+<pre><code>yntax on
+set number
+set cursorline
+set showcmd
+set wrap
+set wildmenu
+set hlsearch
+exec &quot;nohlsearch&quot;
+set incsearch
+set ignorecase
+set smartcase
+
+noremap &lt;LEADER&gt;&lt;CR&gt; :nohlearch&lt;CR&gt;
+
+call plug#begin()
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+call plug#end()
+
+color snazzy
+
+let g:SnazzyTransparent = 1
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Papers]]></title>
         <id>https://taoteo.github.io/post/papers/</id>
@@ -23,8 +64,10 @@
 <h1 id="cyberspace-security">Cyberspace Security</h1>
 <h2 id="malware-detection">Malware Detection</h2>
 <ul>
-<li>[survey] The rise of machine learning for detection and classification of malware: Research developments, trends and challenges. Journal of Network and Computer Applications 2020. [2022.05.01]<br>
-描述：关于恶意软件检测的综述，提供了综述的对比，介绍了静态和动态的特征，总结了基于神经网络的方法以及多模态和混合的方法，分析了当前的挑战和面临的问题。</li>
+<li>[survey] The rise of machine learning for detection and classification of malware: Research developments, trends and challenges. Journal of Network and Computer Applications 2020.<br>
+描述：关于恶意软件检测的综述，提供了综述的对比，介绍了静态和动态的特征，总结了基于神经网络的方法以及多模态和混合的方法，分析了当前的挑战和面临的问题。[2022.05.01]</li>
+<li>KiloGrams: Very Large N-Grams for Malware Classification. KDD 2019.<br>
+描述：通过一个两阶段的利用旋转哈希方法，寻找top-k个最频繁的n-gram来进行恶意软件检测，n能大于1024。(美国军方合作的)[2022.05.06]</li>
 </ul>
 <h1 id="mechine-learing">Mechine Learing</h1>
 <h2 id="time-series">Time Series</h2>

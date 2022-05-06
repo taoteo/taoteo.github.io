@@ -2,21 +2,27 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Hello Stranger | Tao</title>
+<title>Tools | Tao</title>
 <link rel="shortcut icon" href="https://taoteo.github.io/favicon.ico?v=1651838721327">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://taoteo.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Hello Stranger | Tao - Atom Feed" href="https://taoteo.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="Tools | Tao - Atom Feed" href="https://taoteo.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="👏  又一次白嫖Github建起了博客 ！
-✍️  毕业了🎓还是想找个地方记录生活、心情、知识、笔记、创意...
+    <meta name="description" content="📝记录日常学习和工作所用到的工具配置 🎛
 
-😘 Enjoy~
-" />
-    <meta name="keywords" content="Gridea" />
+Vim
+
+对于程序员来说，vim 是非常好用的编辑器 👍
+这里保存下自己的配置文件，方便在陌生设备上迁移🚴‍♀
+配置文件~/.vim/vimrc
+
+yntax on
+set number
+..." />
+    <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -78,39 +84,72 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Hello Stranger
+              Tools
             </h2>
             <div class="post-info">
               <span>
-                2022-05-03
+                2022-05-06
               </span>
               <span>
                 1 min read
               </span>
               
-                <a href="https://taoteo.github.io/tag/HTvE9QDeF/" class="post-tag">
-                  # Gridea
-                </a>
-              
             </div>
-            
-              <img class="post-feature-image" src="https://taoteo.github.io/post-images/hello-gridea.png" alt="">
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>👏  又一次白嫖Github建起了博客 ！<br>
-✍️  毕业了🎓还是想找个地方记录生活、心情、知识、笔记、创意...</p>
+                <p>📝记录日常学习和工作所用到的工具配置 🎛</p>
 <!-- more -->
-<p>😘 Enjoy~</p>
+<h1 id="vim">Vim</h1>
+<blockquote>
+<p>对于程序员来说，vim 是非常好用的编辑器 👍<br>
+这里保存下自己的配置文件，方便在陌生设备上迁移🚴‍♀<br>
+配置文件<code>~/.vim/vimrc</code></p>
+</blockquote>
+<pre><code>yntax on
+set number
+set cursorline
+set showcmd
+set wrap
+set wildmenu
+set hlsearch
+exec &quot;nohlsearch&quot;
+set incsearch
+set ignorecase
+set smartcase
+
+noremap &lt;LEADER&gt;&lt;CR&gt; :nohlearch&lt;CR&gt;
+
+call plug#begin()
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+call plug#end()
+
+color snazzy
+
+let g:SnazzyTransparent = 1
+</code></pre>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li><a href="#vim">Vim</a></li>
+</ul>
+
               </div>
             </div>
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://taoteo.github.io/post/papers/">
+              <h3 class="post-title">
+                Papers
+              </h3>
+            </a>
+          </div>
         
 
         
