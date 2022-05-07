@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-06T12:08:42.811Z</updated>
+    <updated>2022-05-07T12:35:53.650Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -68,6 +68,8 @@ let g:SnazzyTransparent = 1
 描述：关于恶意软件检测的综述，提供了综述的对比，介绍了静态和动态的特征，总结了基于神经网络的方法以及多模态和混合的方法，分析了当前的挑战和面临的问题。[2022.05.01]</li>
 <li>KiloGrams: Very Large N-Grams for Malware Classification. KDD 2019.<br>
 描述：通过一个两阶段的利用旋转哈希方法，寻找top-k个最频繁的n-gram来进行恶意软件检测，n能大于1024。(美国军方合作的)[2022.05.06]</li>
+<li>Malware Detection by Eating a Whole EXE. AAAI 2018.<br>
+描述：声称第一个输入原始的字节码进行恶意软件分类，解决长序列的问题，模型较简单，主要学习WaveNet利用门控卷积，此外，本文在输入原始字节码后加入embedding层（门控卷积前）以及在门控卷积后采用的最大池化。[2022.05.07]</li>
 </ul>
 <h1 id="mechine-learing">Mechine Learing</h1>
 <h2 id="time-series">Time Series</h2>
