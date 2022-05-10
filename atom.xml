@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-10T07:28:14.631Z</updated>
+    <updated>2022-05-10T07:47:56.880Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -71,7 +71,11 @@ let g:SnazzyTransparent = 1
 <li>Malware Detection by Eating a Whole EXE. AAAI 2018.<br>
 描述：声称第一个输入原始的字节码进行恶意软件分类，解决长序列的问题，模型较简单，主要学习WaveNet利用门控卷积，此外，本文在输入原始字节码后加入embedding层（门控卷积前）以及在门控卷积后采用的最大池化。[20220507]</li>
 <li>Malware Classification with Deep Convolutional Neural Networks. New Technologies, Mobility and Security (NTMS 2018）<br>
-描述：将程序的二进制字节码转换成灰度图，利用深度卷积网络来提取特征。[20220510]</li>
+描述：将程序的二进制字节码转换成灰度图，利用深度卷积网络来提取特征。值得注意的是这里转换后的灰度图大小224x224x3应该是彩色的，并不是2D的灰度图。[20220509]</li>
+<li>Malware Images: Visualization and Automatic Classification. 2011<br>
+描述：较早的将程序转换成灰度图进行分类的工作，该文章提供来一个转化后图片宽度的划分方案，例如文件大小在200 kB–500 kB，建议灰度图宽度设置为512。[20220509]</li>
+<li>Image-based Malware Classification: A Space Filling Curve Approach. 2019<br>
+描述：将二进制程序转换成灰度图，一个重要的问题是如何构图？二进制序列局部有序且整个序列的不同部分可能存在隐含的空间关系，比如函数调用。文章提出一种空间填充曲线的方法，将序列转换成图片。然而，填充方法是人为设定，具有一定的局限性。[20220509]</li>
 </ul>
 <h1 id="mechine-learing">Mechine Learing</h1>
 <h2 id="time-series">Time Series</h2>
