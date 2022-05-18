@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-18T12:31:54.100Z</updated>
+    <updated>2022-05-18T15:43:17.095Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -104,6 +104,15 @@ let g:SnazzyTransparent = 1
 描述：相对于Transformer本文可以对长度为64000的序列进行注意力操作，通过LSH减少长序列注意力的复杂度，可逆残差层更有效的利用内存。[20220511]</li>
 <li>Rethinking Attention with Performers<br>
 描述：[todo]</li>
+</ul>
+<h2 id="nlp">NLP</h2>
+<ul>
+<li>Attention Is All You Need. NIPS 2017 ⭐️<br>
+描述：NLP必读论文，Transformer；工作需要，近期一直在关注Transformer处理超长序列的问题，这里把一些必读的经典论文搬上来[20220516]</li>
+<li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.ACL 2019 (BERT)</li>
+<li>Deep contextualized word representations. ACL 2018.  (ELMo)</li>
+<li>Improving Language Understanding by Generative Pre-Training.  Technical report, OpenAI 2018. (GPT)<br>
+描述：NLP必读论文，ELMo基于LSTM，GPT基于Transformer的Decoder部分，BERT基于Transformer的Encoder部分 [20220518]</li>
 </ul>
 <h1 id="todo">ToDo</h1>
 <ul>
