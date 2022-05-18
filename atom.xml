@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-14T03:56:34.327Z</updated>
+    <updated>2022-05-18T12:31:54.100Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -83,7 +83,7 @@ let g:SnazzyTransparent = 1
 <li>[survey] The rise of machine learning for detection and classification of malware: Research developments, trends and challenges. Journal of Network and Computer Applications 2020.<br>
 描述：关于恶意软件检测的综述，提供了综述的对比，介绍了静态和动态的特征，总结了基于神经网络的方法以及多模态和混合的方法，分析了当前的挑战和面临的问题。[20220501]</li>
 <li>KiloGrams: Very Large N-Grams for Malware Classification. KDD 2019. ⭐️<br>
-描述：通过一个两阶段的利用旋转哈希方法，寻找top-k个最频繁的n-gram来进行恶意软件检测，n能大于1024。(美国军方合作的)[20220506]</li>
+描述：通过一个两阶段的利用rolling-hash方法，寻找top-k个最频繁的n-gram来进行恶意软件检测，n能大于1024。(美国军方合作的)[20220506]</li>
 <li>Malware Detection by Eating a Whole EXE. AAAI 2018.⭐️<br>
 描述：声称第一个输入原始的字节码进行恶意软件分类，解决长序列的问题，模型MalConv较简单，主要学习WaveNet利用门控卷积，此外，本文在输入原始字节码后加入embedding层（门控卷积前）以及在门控卷积后采用的最大池化。[20220507]</li>
 <li>Malware Classification with Deep Convolutional Neural Networks. New Technologies, Mobility and Security (NTMS 2018）<br>
@@ -104,6 +104,11 @@ let g:SnazzyTransparent = 1
 描述：相对于Transformer本文可以对长度为64000的序列进行注意力操作，通过LSH减少长序列注意力的复杂度，可逆残差层更有效的利用内存。[20220511]</li>
 <li>Rethinking Attention with Performers<br>
 描述：[todo]</li>
+</ul>
+<h1 id="todo">ToDo</h1>
+<ul>
+<li>A Survey of Transformers.</li>
+<li>Efficient Transformers: A Survey.</li>
 </ul>
 ]]></content>
     </entry>
