@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-19T11:25:50.045Z</updated>
+    <updated>2022-05-19T12:36:41.095Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -113,11 +113,12 @@ let g:SnazzyTransparent = 1
 <li>Deep contextualized word representations. ACL 2018.  (ELMo)</li>
 <li>Improving Language Understanding by Generative Pre-Training.  Technical report, OpenAI 2018. (GPT)<br>
 描述：NLP必读论文，ELMo基于LSTM，GPT基于Transformer的Decoder部分，BERT基于Transformer的Encoder部分 [20220518]</li>
-</ul>
-<h1 id="todo">ToDo</h1>
-<ul>
-<li>A Survey of Transformers.</li>
-<li>Efficient Transformers: A Survey.</li>
+<li>Generating Long Sequences with Sparse Transformers. OpenAI 2019<br>
+描述：基于normal transformer衍生出稀疏的注意力strided attention和fixed attention，采用自己设计的行列计算模式来有条件选取key。[20220519]</li>
+<li>Efficient Transformers: A Survey. Google 2022<br>
+描述：对当前Sparse Attention进行来分类，介绍了一些经典的变种。<a href="https://zhuanlan.zhihu.com/p/263031249">可参考知乎介绍</a>[20220519]</li>
+<li>A Survey of Transformers. 2021.<br>
+描述：邱老师组的文章👍</li>
 </ul>
 ]]></content>
     </entry>
