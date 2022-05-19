@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-19T12:37:03.159Z</updated>
+    <updated>2022-05-19T12:40:47.964Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -96,15 +96,6 @@ let g:SnazzyTransparent = 1
 描述：采用长序列(可以达到两百万步长)分类来进行恶意软件检测，MalConv2，MalConv的增强版，通过Fixed Memory Conv和Global Channel Gating来减小模型参数、提升训练速度和准确性。（作者背景美国军方、微软、博思艾伦）[20220510]</li>
 </ul>
 <h1 id="mechine-learing">Mechine Learing</h1>
-<h2 id="time-series">Time Series</h2>
-<ul>
-<li>Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting. AAAI 2021.<br>
-描述：修改 Transformer 采用 ProbSparse self-attention 机制降低时间复杂度，达到O(L log L) ，用于长时间序列预测。 [20220505]</li>
-<li>Reformer: The Efficient Transformer. ICLR 2020.<br>
-描述：相对于Transformer本文可以对长度为64000的序列进行注意力操作，通过LSH减少长序列注意力的复杂度，可逆残差层更有效的利用内存。[20220511]</li>
-<li>Rethinking Attention with Performers<br>
-描述：[todo]</li>
-</ul>
 <h2 id="nlp">NLP</h2>
 <ul>
 <li>Attention Is All You Need. NIPS 2017 ⭐️<br>
@@ -119,6 +110,12 @@ let g:SnazzyTransparent = 1
 描述：对当前Sparse Attention进行来分类，介绍了一些经典的变种。<a href="https://zhuanlan.zhihu.com/p/263031249">可参考知乎介绍</a>[20220519]</li>
 <li>A Survey of Transformers. 2021.<br>
 描述：邱老师组的文章👍</li>
+<li>Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting. AAAI 2021.<br>
+描述：修改 Transformer 采用 ProbSparse self-attention 机制降低时间复杂度，达到O(L log L) ，用于长时间序列预测。 [20220505]</li>
+<li>Reformer: The Efficient Transformer. ICLR 2020.<br>
+描述：相对于Transformer本文可以对长度为64000的序列进行注意力操作，通过LSH减少长序列注意力的复杂度，可逆残差层更有效的利用内存。[20220511]</li>
+<li>Rethinking Attention with Performers<br>
+描述：[todo]</li>
 </ul>
 ]]></content>
     </entry>
