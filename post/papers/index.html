@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Papers | Tao</title>
-<link rel="shortcut icon" href="https://taoteo.github.io/favicon.ico?v=1653574616798">
+<link rel="shortcut icon" href="https://taoteo.github.io/favicon.ico?v=1653574735359">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://taoteo.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Papers | Tao - Atom Feed" href="https://taoteo.github.io/atom.xml">
@@ -26,7 +26,7 @@ Malware Detection
       <div class="main-content">
         <div class="site-header">
   <a href="https://taoteo.github.io">
-  <img class="avatar" src="https://taoteo.github.io/images/avatar.png?v=1653574616798" alt="">
+  <img class="avatar" src="https://taoteo.github.io/images/avatar.png?v=1653574735359" alt="">
   </a>
   <h1 class="site-title">
     Tao
@@ -134,6 +134,8 @@ Malware Detection
 描述：修改 Transformer 采用 ProbSparse self-attention 机制降低时间复杂度，达到O(L log L) ，用于长时间序列预测。 [20220505]</li>
 <li>Reformer: The Efficient Transformer. ICLR 2020.<br>
 描述：相对于Transformer本文可以对长度为64000的序列进行注意力操作，通过LSH减少长序列注意力的复杂度，可逆残差层更有效的利用内存。[20220511]</li>
+<li>Linformer: Self-Attention with Linear Complexity. Facebook AI 2020<br>
+描述：本论文提出用低秩矩阵逼近的方法实现一种新的自注意力机制，名为 Linformer。它的空间和时间复杂度从原版的 O(n2)降到了O(n)。[20220526]</li>
 <li>Rethinking Attention with Performers<br>
 描述：[todo]</li>
 </ul>
@@ -141,8 +143,6 @@ Malware Detection
 <ul>
 <li>The Reversible Residual Network: Backpropagation Without Storing Activations. NIPS 2017<br>
 描述：时间换空间，每一层的activations可以根据下一层的activations 推导获得，从而我们不需要在内存中储存activations。[20220520]</li>
-<li>Linformer: Self-Attention with Linear Complexity. Facebook AI 2020<br>
-描述：本论文提出用低秩矩阵逼近的方法实现一种新的自注意力机制，名为 Linformer。它的空间和时间复杂度从原版的 [公式] 降到了 [公式] 。[20220526]</li>
 </ul>
 
               </div>
