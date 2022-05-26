@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taoteo.github.io</id>
     <title>Tao</title>
-    <updated>2022-05-19T12:40:47.964Z</updated>
+    <updated>2022-05-26T14:16:59.254Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taoteo.github.io"/>
     <link rel="self" href="https://taoteo.github.io/atom.xml"/>
@@ -116,6 +116,13 @@ let g:SnazzyTransparent = 1
 描述：相对于Transformer本文可以对长度为64000的序列进行注意力操作，通过LSH减少长序列注意力的复杂度，可逆残差层更有效的利用内存。[20220511]</li>
 <li>Rethinking Attention with Performers<br>
 描述：[todo]</li>
+</ul>
+<h2 id="cv">CV</h2>
+<ul>
+<li>The Reversible Residual Network: Backpropagation Without Storing Activations. NIPS 2017<br>
+描述：时间换空间，每一层的activations可以根据下一层的activations 推导获得，从而我们不需要在内存中储存activations。[20220520]</li>
+<li>Linformer: Self-Attention with Linear Complexity. Facebook AI 2020<br>
+描述：本论文提出用低秩矩阵逼近的方法实现一种新的自注意力机制，名为 Linformer。它的空间和时间复杂度从原版的 [公式] 降到了 [公式] 。[20220526]</li>
 </ul>
 ]]></content>
     </entry>
